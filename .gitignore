@@ -1,0 +1,51 @@
+# Archivos y directorios del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de compilación
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de dependencias
+Pipfile.lock
+poetry.lock
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos de base de datos
+*.sqlite3
+*.db
+
+# Configuración de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de cobertura
+.coverage
+.coverage.*
+nosetests.xml
+*.cover
+
+# Entornos de Docker
+.docker/
+
+# Archivos de caché de Pytest
+.cache/
+.env
+.aws-sam/
+.cache.sqlite
